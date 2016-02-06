@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1047" started-at="2016-01-30T04:55:39Z" finished-at="2016-01-30T04:55:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1047" started-at="2016-01-30T04:55:39Z" finished-at="2016-01-30T04:55:40Z">
+      <class name="TestCalc">
+        <test-method status="PASS" signature="testAddTwoNumbers()[pri:0, instance:TestCalc@1c2c22f3]" name="testAddTwoNumbers" duration-ms="14" started-at="2016-01-30T10:25:39Z" finished-at="2016-01-30T10:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTwoNumbers -->
+        <test-method status="FAIL" signature="testAddTwoStringNumbers()[pri:0, instance:TestCalc@1c2c22f3]" name="testAddTwoStringNumbers" duration-ms="1010" started-at="2016-01-30T10:25:39Z" finished-at="2016-01-30T10:25:40Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method org.testng.internal.TestNGMethod.testAddTwoStringNumbers() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.testAddTwoStringNumbers() didn't finish within the time-out 1000
+	at java.lang.Thread.currentThread(Native Method)
+	at java.util.concurrent.locks.ReentrantLock$Sync.isHeldExclusively(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.signalAll(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.tryTerminate(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.processWorkerExit(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTwoStringNumbers -->
+      </class> <!-- TestCalc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

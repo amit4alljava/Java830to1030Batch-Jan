@@ -1,0 +1,20 @@
+class W
+{
+	W(){
+		System.out.println("W Class Default Cons");
+	}
+}
+class P extends W
+{
+	P(){
+		System.out.println("P Class Default Cons");
+	}
+}
+public class ConstructorISA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

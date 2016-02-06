@@ -1,0 +1,11 @@
+package com.hdfc.banking.insurance.views;
+
+public class LoginUI {
+	public void userExist(){
+		
+	}
+public static void main(String[] args) {
+	LoginUI loginUI = new LoginUI();
+	loginUI.userExist();
+}
+}

@@ -1,0 +1,5 @@
+package com.hdfc.banking.insurance.dao;
+
+public class LoginDAO {
+
+}

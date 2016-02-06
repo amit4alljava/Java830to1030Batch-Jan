@@ -1,0 +1,9 @@
+package com.hdfc.banking.insurance.helper;
+
+public class LoginHelper {
+	public String userExist(){
+		LoginDAO loginDAO = new LoginDAO();
+		
+	}
+
+}

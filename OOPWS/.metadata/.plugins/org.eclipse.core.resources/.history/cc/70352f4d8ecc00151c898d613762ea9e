@@ -1,0 +1,18 @@
+package com.hdfc.banking.insurance.helper;
+
+import com.hdfc.banking.insurance.dao.LoginDAO;
+
+public class LoginHelper {
+	public String userExist(String userid, String password){
+		LoginDAO loginDAO = new LoginDAO();
+		if(loginDAO.isUserExist(userid, password)){
+			return "Welcome User ";
+		}
+		else
+		{
+			return "Invalid User ";
+		}
+		
+	}
+
+}

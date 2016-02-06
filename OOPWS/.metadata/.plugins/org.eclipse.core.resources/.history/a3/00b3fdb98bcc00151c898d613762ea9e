@@ -1,0 +1,15 @@
+package com.hdfc.banking.insurance.views;
+
+import com.hdfc.banking.insurance.helper.LoginHelper;
+
+public class LoginUI {
+	public void userExist(){
+		LoginHelper loginHelper = new LoginHelper();
+		String message = loginHelper.userExist();
+		System.out.println("Your Message is "+message);
+	}
+public static void main(String[] args) {
+	LoginUI loginUI = new LoginUI();
+	loginUI.userExist();
+}
+}

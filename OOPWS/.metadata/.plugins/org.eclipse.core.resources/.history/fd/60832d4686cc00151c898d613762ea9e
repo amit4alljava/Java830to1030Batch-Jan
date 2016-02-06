@@ -1,0 +1,23 @@
+class A1
+{
+ void show(){
+System.out.println("A Show ");
+}
+}
+class B1 extends A1
+{
+@Override
+void show(){
+System.out.println("B Show ");
+}
+}
+
+
+public class OverridingRules {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

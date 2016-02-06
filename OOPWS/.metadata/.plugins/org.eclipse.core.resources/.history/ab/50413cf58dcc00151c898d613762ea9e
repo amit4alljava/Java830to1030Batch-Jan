@@ -1,0 +1,5 @@
+package com.hdfc.banking.insurance.dto;
+
+public class LoginDTO {
+
+}

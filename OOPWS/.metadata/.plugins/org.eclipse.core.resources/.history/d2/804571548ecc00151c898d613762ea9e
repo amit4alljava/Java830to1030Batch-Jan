@@ -1,0 +1,18 @@
+package com.hdfc.banking.insurance.dao;
+
+public class LoginDAO {
+	
+	public boolean isUserExist(String userid, String password){
+		System.out.println("DB Call and Check in DB  UserExist or Not");
+		System.out.println("select * from user "
+				+ "where userid=? and password=? and Pincode =?");
+		if(userid.equals(password)){
+			return true;
+		}
+		else{
+			return false;	
+		}
+		
+	}
+
+}

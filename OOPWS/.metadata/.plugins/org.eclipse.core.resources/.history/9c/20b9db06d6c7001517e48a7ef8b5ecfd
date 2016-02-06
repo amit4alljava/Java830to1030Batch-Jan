@@ -1,0 +1,30 @@
+class W
+{
+	int x ;
+	W(){
+		x = 1000;
+		System.out.println("W Class Default Cons X "+x);
+	}
+	W(int x){
+		this.x = x ;
+		System.out.println("W Class Param COns Call "+x);
+	}
+}
+class P extends W
+{
+	int y ;
+	P(){
+		super(); // it will call parent class default cons
+		y = x + 200;
+		System.out.println("P Class Default Cons Y "+y);
+	}
+}
+public class ConstructorISA {
+
+	public static void main(String[] args) {
+		P obj = new P();
+		
+
+	}
+
+}
